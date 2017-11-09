@@ -26,14 +26,14 @@ body {
 }
 
 #content {
-    width: 75%;
+    width: 80%;
     border: 2px #ffaa75 solid;
     float: left;
     text-align: left;
 }
 
 #sidebar-primary {
-    width: 23%;
+    width: 13%;
     border: 2px #ffaa75 solid;
     float: right;
     text-align: left;
