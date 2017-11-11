@@ -11,6 +11,7 @@ Author URI: http://hackinghistory.ca
 body {
     text-align: center;
     background: white;
+    opacity: inherit;
 }
 
 #page {
