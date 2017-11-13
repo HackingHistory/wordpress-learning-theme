@@ -22,19 +22,19 @@ body {
 }
 
 #header {
-    border: 2px #a2a2a2 solid;
+    border: 2px #fffafa solid;
 }
 
 #content {
     width: 70%;
-    border: 2px #a2a2a2 solid;
+    border: 2px #fffafa solid;
     float: left;
     text-align: left;
 }
 
 #sidebar-primary {
     width: 25%;
-    border: 2px #a2a2a2 solid;
+    border: 2px #fffafa solid;
     float: right;
     text-align: left;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 #footer {
-    border: 2px #a2a2a2 solid;
+    border: 2px #fffafa solid;
 }
 
 .title {
