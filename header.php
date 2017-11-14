@@ -25,6 +25,7 @@
              involves using another file, called functions.php. But this theme is simple we
              don't even have that file at all!
            -->
+
         <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
     </head>
     <body >
