@@ -1,15 +1,15 @@
 <?php get_header(); ?>
 
   <div id="content">
-      <h1>What’s the “K” in the KCC?</h1>
+      <h3>What’s the “K” in the KCC?</h3>
 
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <h2>
           <h2>
 
-            <a href="<?php the_permalink('https://amelia.hackinghistory.ca'); ?>">
-                <?php the_title('The Park and the Mountain'); ?>
+            <a href="<?php the_permalink('http://amelia.hackinghistory.ca/home/'); ?>">
             </a>
+            <?php the_title('The Park and the Mountain'); ?>
         </h2>
 
         <h4>
