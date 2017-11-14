@@ -10,6 +10,7 @@ Author URI: http://hackinghistory.ca
 
 body {
     background: #001f3f;
+    background-image: url("mountain.jpg");
     text-align: center;
     color: #0074D9;
     background: height: 200px;
@@ -20,7 +21,7 @@ body {
     display: block;
     box-shadow: 0px 0px 2px 2px black;
     /* border: 1px #a2a2a2 solid; */
-    width:90%;
+    width:84%;
     margin:0px auto;
     background: #001f3f;
 }
