@@ -34,13 +34,9 @@
         <div id="page">
             <!-- here we use an id; again, we do this so we can address it with css in style.css -->
             <header id="header">
-                <h1 id="site-title">
-                    <a href="<?php bloginfo('https://amelia.hackinghistory.ca'); ?>">
-                      KCC
-                        <?php bloginfo('KCC'); ?>
-                    </a>
-                </h1>
+                <h1 id="site-title">KCC</h1>
                 <h2 id="site-description">
+                    Khangchendzonga Conservation Committee
                     <?php bloginfo('KNP and KCC'); ?>
                 </h2>
                 <!-- in Wordpress menus are almost always embedded in a <nav> element -->
