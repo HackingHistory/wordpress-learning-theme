@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <div id="content">
-      <h1>Khangchendzonga</h1>
+      <h1>What’s the “K” in the KCC?</h1>
 
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <h2>
