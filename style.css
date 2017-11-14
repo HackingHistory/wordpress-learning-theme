@@ -10,21 +10,22 @@ Author URI: http://hackinghistory.ca
 
 #page {
     display: block;
-    border: 1px #FFFFFF solid;
     width:90%;
     margin:0px auto;
-    background: grey;
+    background-color: LightSteelBlue ;
+    color: #333;
 }
 
 #header {
-    border: 2px #FFFFFF solid;
+    border: 2px #333 solid;
 }
 
 #content {
     width: 75%;
-    border: 2px #FFFFFF solid;
     float: left;
     text-align: left;
+    background-color: LightSteelBlue ;
+    color: #333;
 }
 
 #sidebar-primary {
@@ -48,12 +49,13 @@ Author URI: http://hackinghistory.ca
     font-family: verdana;
     font-weight: bold;
     align: left;
+    color: white
 }
 
 
 /*menu*/
 #main-menu {
-	background: #222; /* Show a solid color for older browsers */
+	background: #333; /* Show a solid color for older browsers */
 	background: -moz-linear-gradient(#252525, #0a0a0a);
 	background: -o-linear-gradient(#252525, #0a0a0a);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a)); /* older webkit syntax */
@@ -79,7 +81,6 @@ Author URI: http://hackinghistory.ca
 	position: relative;
 }
 #main-menu a {
-	color: #eee;
 	display: block;
 	line-height: 3.333em;
 	padding: 0 1.2125em;
@@ -105,7 +106,6 @@ Author URI: http://hackinghistory.ca
 #main-menu ul ul a {
 	background: #f9f9f9;
 	border-bottom: 1px dotted #ddd;
-	color: #444;
 	font-size: 13px;
 	font-weight: normal;
 	height: auto;
@@ -116,7 +116,7 @@ Author URI: http://hackinghistory.ca
 #main-menu li:hover > a,
 #main-menu ul ul :hover > a,
 #main-menu a:focus {
-	background: #efefef;
+	background: black;
 }
 #main-menu li:hover > a,
 #main-menu a:focus {
@@ -125,10 +125,10 @@ Author URI: http://hackinghistory.ca
 	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */
 	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
-	color: #373737;
-}
+	}
 #main-menu ul li:hover > ul {
 	display: block;
+  color: black;
 }
 #main-menu .current-menu-item > a,
 #main-menu .current-menu-ancestor > a,

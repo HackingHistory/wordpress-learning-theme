@@ -1,4 +1,4 @@
-functions.php
+
 
 <?php
 function register_my_menu() {
