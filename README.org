@@ -1,18 +1,18 @@
 * Trivial Wordpress Theme for HIS455 Exercise
 
-This trivial theme highlights some of the basic features of Wordpress and is so simple that you should be able to get started very quickly. 
+This trivial theme highlights some of the basic features of Wordpress and is so simple that you should be able to get started very quickly.
 
 * Using this theme
 This theme is intended to showcase the most basic possible elements of Wordpress theme development. The theme contains only a bare minimum of files (~styles.css~, ~index.php~, ~header.php~, ~footer.php~, and ~sidebar.php~). All of them are extremely simple and should be readable even by beginners.
 
-This theme is not intended to be used in production, but instead to serve as an introduction to Wordpress themes for absolute beginners. 
+This theme is not intended to be used in production, but instead to serve as an introduction to Wordpress themes for absolute beginners.
 
 * Installation for Students. Read Carefully!
 
-Normally it is somewhat tricky and confusing to try to edit Wordpress themes. In order to see your changes, you will need to look at them on a running Wordpress site; but it is much easier to edit theme files on an editor at home. This theme has been set up to allow you to edit your files at home in Atom, using the ~git commit; git push~ workflow we have been working on thus far (though there's a new twist, actually; see below). I'm hoping this workflow will also make sense for the class project, when the time comes.  But the process for getting started has several stages.  
+Normally it is somewhat tricky and confusing to try to edit Wordpress themes. In order to see your changes, you will need to look at them on a running Wordpress site; but it is much easier to edit theme files on an editor at home. This theme has been set up to allow you to edit your files at home in Atom, using the ~git commit; git push~ workflow we have been working on thus far (though there's a new twist, actually; see below). I'm hoping this workflow will also make sense for the class project, when the time comes.  But the process for getting started has several stages.
 
 ** Clone the theme repository to your local computer
-Unlike last time, *this time you will not make a fork of the main repository*. Instead, we will all be working off of the same repository, but with a separate branch for each student.  
+Unlike last time, *this time you will not make a fork of the main repository*. Instead, we will all be working off of the same repository, but with a separate branch for each student.
 
 Start by cloning the repository as usual: go to [[https://github.com/HackingHistory/wordpress-learning-theme/][the repo page]] and click the "clone or download" button, then open in Github Desktop.
 *** Background: using Git branches
@@ -23,7 +23,7 @@ You will need special privileges to edit this repository. I have tried to add al
 You should now be working on your personal branch. Open any of the theme files in Atom, open the ~git~ tab using ~Packages --> Github --> Toggle Git Tab~ and check to see that the little branch icon in the bottom right corner says your name (and not, say, "master")
 ** Install the theme in your Wordpress site using the ~github-updater~ plugin
 
-*I did this for you semi-automatically. But see troubleshooting, below*
+*I did this for you semi-automatically. But see troubleshootin g, below*
 
 
 You may need to change the branch your theme pulls from. By default, it's set to pull from ~master~. I *hope* that I've automagically set it to pull from ~YOURNAME~ instead. You may still want to check, though, and maybe do it manually.
@@ -36,14 +36,14 @@ First navigate to the github-updater settings page in Wordpress:
 
 make sure that the ~Enable Branch Switching~ box is checked, and save your settings.
 
-Now you can navigate to ~Themes --> Appearance~ and look at the theme settings. You should be able to see an option to switch branches there.  
+Now you can navigate to ~Themes --> Appearance~ and look at the theme settings. You should be able to see an option to switch branches there.
 
-If a theme is available in the Wordpress theme collection we would normally install it using the standard installer. But this theme is terrible - -it will never make it into the Wordpress repositories! And anyway, you want to have it update itself continuously. So instead we will install it using the amazing [[https://github.com/afragen/github-updater/][github-updater plugin]]. All we need to do is navigate to the Github Updater Settings (~Settings --> Github Updater~ in the admin interface. Or you can get there directly by pasting ~https://YOURNAME.hackinghistory.ca/wp-admin/options-general.php?page=github-updater&tab=github_updater_install_theme~ into the browser (but replace ~YOURNAME~ with your actual first name!). 
+If a theme is available in the Wordpress theme collection we would normally install it using the standard installer. But this theme is terrible - -it will never make it into the Wordpress repositories! And anyway, you want to have it update itself continuously. So instead we will install it using the amazing [[https://github.com/afragen/github-updater/][github-updater plugin]]. All we need to do is navigate to the Github Updater Settings (~Settings --> Github Updater~ in the admin interface. Or you can get there directly by pasting ~https://YOURNAME.hackinghistory.ca/wp-admin/options-general.php?page=github-updater&tab=github_updater_install_theme~ into the browser (but replace ~YOURNAME~ with your actual first name!).
 
 ** Add your site to the theme repository "webhook"
 A webhook is a special signal that Github sends out when a push or other event is received. So, whenever you push a commit to github you can ask github to tell your website what's happened. Github-updater will then update your theme for you automatically.
 
-Please follow these directions *carefully* -- there are some fiddly steps and you need to get them exactly right. 
+Please follow these directions *carefully* -- there are some fiddly steps and you need to get them exactly right.
 
 For this you need to find the "Remote Management" tab of the github Updater settings, under ~Settings --> Github Updater --> Remote Management~ i n the Wordpress admin interface. It will show you a fancy URL that looks something like  this:
 
@@ -60,14 +60,14 @@ You will need to ~Add a Webhook~ (click that button), then paste the URL into th
 ** Troubleshooting
 It may be that your
 ** Syntax Errors
-I've also set up automated testing for syntax errors... but right now I'm not sure you can see the tests. Maybe [[https://travis-ci.org/titaniumbones/wordpress-learning-theme][this link]] will show them to you.  
+I've also set up automated testing for syntax errors... but right now I'm not sure you can see the tests. Maybe [[https://travis-ci.org/titaniumbones/wordpress-learning-theme][this link]] will show them to you.
 
 You can also install the [[https://atom.io/packages/linter-php][php-linter]] plugin for Atom, which will show you any syntax errors while you're typing.
 ** Let me know
 I know this is a bit complex. I'm eager to hear whether you ucna make this work! Let me know over Slack!
 
 * Installation (for teachers and the curious)
-To install this theme in your Wordpress installation, simply 
+To install this theme in your Wordpress installation, simply
 #+BEGIN_SRC sh
 # replace $WORDPRESS_ROOT with the actual path to your Wordpress installation
 cd $WORDPRESS_ROOT/wp-content/themes/
@@ -85,11 +85,11 @@ gulp repo-watch
 #+END_SRC
 ~gulp-git~ will update your files automatically.
 
-This is only a start, though, since the main purpose of the setup is to allow students to use Github to code without the normal friction associated with coding in Wordpress.  Right now gulpfile.js has to be customized for every installation (to point to the student's repository instead of this central repo). something like a config.env file, or similar could instead be used to set the repository address parameters, and could be written by a bash script on install.  Alternatively, the upstream repo parameters could be read by ~gulp-git~ instead of hard-coded in the ~gulpfile~. In any case, some kind of mechanism needs to be developed for writing these repos via a ~students.csv~ or similar file, which contains information about student github handles. Thisi s still to be written. 
+This is only a start, though, since the main purpose of the setup is to allow students to use Github to code without the normal friction associated with coding in Wordpress.  Right now gulpfile.js has to be customized for every installation (to point to the student's repository instead of this central repo). something like a config.env file, or similar could instead be used to set the repository address parameters, and could be written by a bash script on install.  Alternatively, the upstream repo parameters could be read by ~gulp-git~ instead of hard-coded in the ~gulpfile~. In any case, some kind of mechanism needs to be developed for writing these repos via a ~students.csv~ or similar file, which contains information about student github handles. Thisi s still to be written.
 
 An alternative approach is to use a Github webhook to trigger an update via github-updater. This requires some user intervention but is much simpler, and we are using this process currently. Students will need to add the github-updater API endpoint URL to the webhook for ~push~ events [[https://github.com/afragen/github-updater/wiki/Remote-Management---RESTful-Endpoints#restful-endpoints-for-remote-management][as descripbed here]]. This is a url of the form
  ~http://website.full.url/wp-admin/admin-ajax.php?action=github-updater-update&key=76bb2b7c819c36ee37292b6978a4ad61~
 
-and can be found in the github-updater plugin settings. 
+and can be found in the github-updater plugin settings.
 
 Further discussion of various options can be found in #9 and to some extent in #3.
