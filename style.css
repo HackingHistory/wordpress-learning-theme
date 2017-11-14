@@ -9,8 +9,9 @@ Author URI: http://hackinghistory.ca
 */
 
 body {
-    background: #191970;
+    background: #001f3f;
     text-align: center;
+    color: #0074D9;
     background: height: 200px;
     font-family: Helvetica;
 }
@@ -38,7 +39,7 @@ body {
 
 #sidebar-primary {
     width: 23%;
-    border: 10px azure double;
+    border: 3px azure double;
     float: left;
     text-align: center;
 }

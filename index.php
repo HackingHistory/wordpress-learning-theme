@@ -9,7 +9,7 @@
       <!-- this is called "the loop"; it's a little complicated.
            there are many tutorials but you can read more about it here:
            https://codex.wordpress.org/The_Loop_in_Action
-         --> 
+         -->
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <h2>
             <!-- create a link whose href is the permanent link to this post,
