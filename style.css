@@ -45,12 +45,12 @@ body {
 }
 
 #footer {
-    border: 2px #a2a2a2 solid;
+    border: 1px #00000 solid;
 }
 
 .title {
-    font-size: 11pt;
-    font-family: verdana;
+    font-size: 16pt;
+    font-family: helvetica;
     font-weight: bold;
     align: left;
 }
@@ -58,7 +58,7 @@ body {
 
 /*menu*/
 #main-menu {
-	background: #222; /* Show a solid color for older browsers */
+	background: darkslateblue; /* Show a solid color for older browsers */
 	background: -moz-linear-gradient(#252525, #0a0a0a);
 	background: -o-linear-gradient(#252525, #0a0a0a);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a)); /* older webkit syntax */
