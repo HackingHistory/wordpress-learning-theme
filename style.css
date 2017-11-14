@@ -10,7 +10,12 @@ Author URI: http://hackinghistory.ca
 
 body {
     text-align: center;
-    background: green;
+    background: height: 200px;
+    background: powderblue; /* solid colour */
+    background: -webkit-linear-gradient(powderblue, azure);
+    background: -o-linear-gradient(powderblue, azure);
+    background: -moz-linear-gradient(powderblue, azure);
+    background: linear-gradient(powderblue, azure); /*  */;
     font-family: Helvetica;
 }
 
@@ -28,7 +33,7 @@ body {
 
 #content {
     width: 75%;
-    border: 2px #a2a2a2 solid;
+    /* border: 2px #a2a2a2 solid; */
     float: right;
     text-align: left;
 }
@@ -37,7 +42,7 @@ body {
     width: 23%;
     border: 2px #a2a2a2 solid;
     float: left;
-    text-align: left;
+    text-align: center;
 }
 
 
