@@ -44,10 +44,7 @@
                 <nav id="main-menu">
                     <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
                 <div class'"menu>"
-                  <ul>
-                    <li class="page_item page-item2"
-<a href="https://amelia.hackinghistory.ca/sample-page/">Home</a>
-              </nav>
+
             </header>
 
             <!-- here's something you won't see in a regular html file:
