@@ -59,6 +59,10 @@ body {
   float: left;
 }
 
+.twitter {
+  float: center;
+}
+
 .donate {
   flaot: right;
 }
