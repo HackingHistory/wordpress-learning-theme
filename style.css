@@ -62,12 +62,12 @@ body {
 
 .twitter {
   width: 33%;
-  float: center;
+  float: right;
 }
 
 .donate {
   width: 33%;
-  flaot: right;
+  float: right;
 }
 
 blockquote.twitter-tweet {
