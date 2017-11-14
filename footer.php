@@ -11,10 +11,9 @@
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 
-
   <div class="donate">
   <h1>Donate</h1>
-  <p>Please donate here</p>
+  <p>Please donate  <a href="www.redcross.ca/donate">here</a>!</p>
   </div>
 
 
