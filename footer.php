@@ -1,6 +1,6 @@
 <!-- make an ugly footer -->
 <footer id="footer">
-  <h6>Khangchendzonga Conservation Committee</h6>
+  <h3>Khangchendzonga Conservation Committee</h3>
   <p>Powered by knowledge</p>
 </footer>
 <!-- do some Wordpress magic -->
