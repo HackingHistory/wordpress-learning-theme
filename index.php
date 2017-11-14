@@ -7,7 +7,7 @@
         <h2>
           <h2>
 
-            <a href="<?php the_permalink('https://amelia.hackinghistory.ca/2017/10/31/welcome-to-wordpress/'); ?>">
+            <a href="<?php the_permalink('https://amelia.hackinghistory.ca'); ?>">
                 <?php the_title('The Park and the Mountain'); ?>
             </a>
         </h2>
