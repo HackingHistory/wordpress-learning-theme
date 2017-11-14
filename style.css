@@ -56,14 +56,17 @@ body {
 }
 
 .MPF {
+  width: 33%;
   float: left;
 }
 
 .twitter {
+  width: 33%;
   float: center;
 }
 
 .donate {
+  width: 33%;
   flaot: right;
 }
 
