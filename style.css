@@ -10,9 +10,13 @@ Author URI: http://hackinghistory.ca
 
 body {
     background: #001f3f;
-    background-image: url("mountain.jpg");
+    background: url(mountain.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     text-align: center;
-    color: carrot;
+    color: #ED9121;
     background: height: 200px;
     background-repeat: no-repeat;
     font-family: Helvetica;
