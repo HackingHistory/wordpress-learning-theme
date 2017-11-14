@@ -7,7 +7,8 @@
 
   <div class="twitter">
   <h1>Our Twitter Feed</h1>
-<a class="twitter-timeline" href="https://twitter.com/TwitterDev/lists/national-parks?ref_src=twsrc%5Etfw">A Twitter List by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Why would Kim Jong-un insult me by calling me &quot;old,&quot; when I would NEVER call him &quot;short and fat?&quot; Oh well, I try so hard to be his friend - and maybe someday that will happen!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/929511061954297857?ref_src=twsrc%5Etfw">2017. november 12.</a></blockquote>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 
 
