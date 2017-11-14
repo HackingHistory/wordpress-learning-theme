@@ -1,7 +1,7 @@
 <!-- make an ugly footer -->
 <footer id="footer">
-  <h1>FOOTER</h1>
-  <p>Powered by madness</p>
+  <h1>HIS455 STA03</h1>
+  <p>By Monica</p>
 </footer>
 <!-- do some Wordpress magic -->
 <?php wp_footer(); ?>
