@@ -45,7 +45,7 @@
                 </h2>
                 <!-- in Wordpress menus are almost always embedded in a <nav> element -->
                 <nav id="main-menu">
-                    <?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
+                    <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
                 </nav>
             </header>
 
