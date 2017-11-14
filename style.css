@@ -12,8 +12,9 @@ body {
     background: #001f3f;
     background-image: url("mountain.jpg");
     text-align: center;
-    color: #0074D9;
+    color: carrot;
     background: height: 200px;
+    background-repeat: no-repeat;
     font-family: Helvetica;
 }
 
