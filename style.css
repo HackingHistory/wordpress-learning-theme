@@ -1,40 +1,41 @@
-/* 
+/*
 Theme Name: Wordpress Learning Theme
 Theme URI: http://hackinghistory.ca
 GitHub Theme URI: https://github.com/HackingHistory/wordpress-learning-theme
 Description: Very simple Theme for Hacking History Students
 Version: 0.1.1
 Author: Matt Price
-Author URI: http://hackinghistory.ca 
+Author URI: http://hackinghistory.ca
 */
 
 body {
     text-align: center;
-    background: pink;
+    background: powderblue;
+    color
 }
 
 #page {
     display: block;
-    border: 1px #a2a2a2 solid;
+    border: 1px #FFFFFF solid;
     width:90%;
     margin:0px auto;
     background: grey;
 }
 
 #header {
-    border: 2px #a2a2a2 solid;
+    border: 2px #FFFFFF solid;
 }
 
 #content {
     width: 75%;
-    border: 2px #a2a2a2 solid;
+    border: 2px #FFFFFF solid;
     float: left;
     text-align: left;
 }
 
 #sidebar-primary {
     width: 23%;
-    border: 2px #a2a2a2 solid;
+    border: 2px #FFFFFF solid;
     float: right;
     text-align: left;
 }
@@ -45,7 +46,7 @@ body {
 }
 
 #footer {
-    border: 2px #a2a2a2 solid;
+    border: 2px #FFFFFF solid;
 }
 
 .title {

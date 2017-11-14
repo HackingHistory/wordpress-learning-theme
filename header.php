@@ -7,11 +7,11 @@
  */
 ?>
 
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
     <head>
         <!-- Change the title to something else -->
-        <title>Class theme</title>
+        <title>KNP</title>
         <!-- this next line is a little hard to read. We are asking Wordpress to
              print the web address (URI) of the directory where our stylesheets live.
              Then we add "/style.css" to the end of the href value.  This will result in
@@ -35,21 +35,44 @@
             <!-- here we use an id; again, we do this so we can address it with css in style.css -->
             <header id="header">
                 <h1 id="site-title">
-                    <a href="<?php bloginfo('url'); ?>">
-                        <?php bloginfo('name'); ?>
+                    <a href="<?php bloginfo('https://amelia.hackinghistory.ca'); ?>">
+                      HIS455 (2017)
+                        <?php bloginfo('
+                       HIS455 (2017)'); ?>
                     </a>
                 </h1>
                 <h2 id="site-description">
-                    <?php bloginfo('description'); ?>        
+                    <?php bloginfo('Khangchendzonga'); ?>
                 </h2>
                 <!-- in Wordpress menus are almost always embedded in a <nav> element -->
                 <nav id="main-menu">
                     <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-                </nav>
+                <div class'"menu>"
+                  <ul>
+                    <li class="page_item page-item2"
+<a href="https://amelia.hackinghistory.ca/sample-page/">Home</a>
+              </nav>
             </header>
 
             <!-- here's something you won't see in a regular html file:
                  notice how none of these tags is actually closed.
                  that's because the closing all happens in footer.php-->
             <div id="main">
-                
+
+            <div id="content">
+              <h1>Khangchendzonga</h1>
+
+<h3>The Park Site</h3>
+<p>Khangchendzonga is both a park and an extremely significant actor in the Sikkamese cultural landscape. It holds a designation as a Sikkamese National Park as well as a UNESCO heritage status as both a natural and culturally significant site. It is visited today for pilgrimages and tourism purposes, as well as for acts of active participation and maintenance of cultural tradition by the Sikamese and was appropriated in the past for the colonial infrastructural developments regarding tea harvesting. </p>
+<figure>
+  <img src=" http://whc.unesco.org/uploads/thumbs/site_1513_0015-500-375-20161019150902.jpg" width="500" height="400">
+  <figcaption> Mt.Khangchendzonga & the National Park (whc.unesco.org) </figcaption>
+</figure>
+<h3>The Mountain</h3>
+<p>While it is in fact the entire landscape together which comprise foundational elements of the Sikkamese worldviews, the centre of focus rests on Mt. Khangchendzonga. Its peak is the highest point of the Himalayan mountain range where it rests, but to the Sikamese it is also a deity and a significant aspect of the cultural and ritual landscape (pilgrimages, dances, offerings), it is an active actor in the development of their culture history as well as the success of their subsistence, and finally, it is a player in their multiple mythologies and oral traditions. </p>
+<figure>
+  <img src="http://www.knpsikkim.in/wp-content/gallery/mountains/5.jpg" width="1000" height="400">
+  <figcaption> The Mountain Scape (knpsikkim.in) </figcaption>
+</figure>
+
+<h2> <a href="https://amelia.hackinghistory.ca/2017/10/31/welcome-to-wordpress/">14-11-2017</a>
