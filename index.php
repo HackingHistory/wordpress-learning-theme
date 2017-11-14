@@ -19,8 +19,6 @@
 
         <section id="home">
 
-  <h1>Khangchendzonga</h1>
-
   <h3>The Park Site</h3>
   <p>Khangchendzonga is both a park and an extremely significant actor in the Sikkamese cultural landscape. It holds a designation as a Sikkamese National Park as well as a UNESCO heritage status as both a natural and culturally significant site. It is visited today for pilgrimages and tourism purposes, as well as for acts of active participation and maintenance of cultural tradition by the Sikamese and was appropriated in the past for the colonial infrastructural developments regarding tea harvesting. </p>
   <figure>
@@ -161,7 +159,7 @@
   </figure>
 
 
-  
+
    <p><a id=“topics”>topics content</a></p>
     </a> </p>
 

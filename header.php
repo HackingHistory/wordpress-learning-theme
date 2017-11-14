@@ -36,9 +36,8 @@
             <header id="header">
                 <h1 id="site-title">
                     <a href="<?php bloginfo('https://amelia.hackinghistory.ca'); ?>">
-                      KCC 
-                        <?php bloginfo('
-                       KCC (2017)'); ?>
+                      KCC
+                        <?php bloginfo('KCC'); ?>
                     </a>
                 </h1>
                 <h2 id="site-description">
