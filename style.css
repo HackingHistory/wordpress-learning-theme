@@ -46,11 +46,15 @@ h1 {
   background-color: #333;
 }
 
-
 #header {
   color: #333;
 
 }
+
+#delimiter {
+  color: #333;
+  background-color: #333;
+  }
 
 #content {
     width: 75%;
