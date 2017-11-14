@@ -6,7 +6,7 @@
  *
  */
 ?>
-
+<img src="<?php echo( get_header_image() ); ?>" alt="<?php echo( get_bloginfo( 'title' ) ); ?>" />
 <!DOCTYPE html>
 <html>
     <head>
@@ -35,9 +35,10 @@
             <!-- here we use an id; again, we do this so we can address it with css in style.css -->
             <header id="header">
                 <h1 id="site-title">
+                  <!--
                     <a href="<?php bloginfo('url'); ?>">
                         <?php bloginfo('name'); ?>
-                    </a>
+                    </a> -->
                 </h1>
                 <h2 id="site-description">
                     <?php bloginfo('description'); ?>
