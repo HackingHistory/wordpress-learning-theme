@@ -23,6 +23,7 @@ body {
 
 #header {
     border: 2px #fffafa solid;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kanchenjunga_from_Tiger_Hills.JPG/1024px-Kanchenjunga_from_Tiger_Hills.JPG");
 }
 
 #content {
@@ -46,7 +47,7 @@ body {
 
 #footer {
     border: 2px #fffafa solid;
-    background: #FCFBE3;
+    background-color: #FCFBE3;
 }
 
 .title {
