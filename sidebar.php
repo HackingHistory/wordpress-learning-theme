@@ -8,7 +8,7 @@
 
     <?php else : ?>
 
-	<div id="sidebar">
+	      <div id="sidebar">
             <h2 class="sidebartitle">How can you help?</h2>          
         </div>
 

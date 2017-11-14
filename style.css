@@ -59,6 +59,10 @@ body {
   float: left;
 }
 
+.donate {
+  flaot: right;
+}
+
 /*menu*/
 #main-menu {
 	background: #222; /* Show a solid color for older browsers */
