@@ -1,6 +1,6 @@
 <!-- make an ugly footer -->
 <footer id="footer">
-  <p>HIS455 STA03</p>
+  <h5>HIS455 STA03</h5>
   <p>By Monica</p>
 </footer>
 <!-- do some Wordpress magic -->
