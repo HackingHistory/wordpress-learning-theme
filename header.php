@@ -38,14 +38,14 @@
 
                     <a href="<?php bloginfo('url'); ?>">
                         <?php bloginfo('name'); ?>
-                    </a> 
+                    </a>
                 </h1>
                 <h2 id="site-description">
                     <?php bloginfo('description'); ?>
                 </h2>
                 <!-- in Wordpress menus are almost always embedded in a <nav> element -->
                 <nav id="main-menu">
-                    <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+                    <?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
                 </nav>
             </header>
 
