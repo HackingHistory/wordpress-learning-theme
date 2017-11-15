@@ -50,6 +50,7 @@ h1 {
 
 #header {
   color: #333;
+  background-color: white;
 
 }
 
@@ -66,12 +67,11 @@ h1 {
 }
 
 #sidebar-primary {
-    width: 23%;
+    width: 15%;
     float: right;
-    text-align: left;
-    background-color: white;
+    text-align: Centre;
+    background-color: LightSLateGrey;
 }
-
 
 #delimiter {
     clear: both;
