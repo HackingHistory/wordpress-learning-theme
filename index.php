@@ -1,19 +1,20 @@
 <?php get_header(); ?>
 
   <div id="content">
-      <h3>What’s the “K” in the KCC?</h3>
+
 
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <h2>
-          <h2>
-
+            <!-- create a link whose href is the permanent link to this post,
+               and whose textual content is the post or page title-->
             <a href="<?php the_permalink('http://amelia.hackinghistory.ca/home/'); ?>">
+                <?php the_title('What’s the “K” in the KCC?'); ?>
+              <h3>What’s the “K” in the KCC?</h3>
             </a>
-            <?php the_title(<h5>'The Park and the Mountain'</h5>); ?>
         </h2>
-
+        <!-- use php's strange time parsing functions to write out the time -->
         <h4>
-          Posted on <?php the_time('F jS, Y')?>
+            Posted on <?php the_time('F jS, Y') ?>
         </h4>
         <!-- add the content -->
 
