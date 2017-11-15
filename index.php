@@ -13,7 +13,7 @@
         </h2>
 
         <h4>
-          Posted on <?php the_date('2017-11-14')?>
+          Posted on <?php the_date('F jS, Y')?>
         </h4>
         <!-- add the content -->
 
