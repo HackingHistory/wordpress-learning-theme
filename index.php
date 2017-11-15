@@ -8,7 +8,7 @@
             <!-- create a link whose href is the permanent link to this post,
                and whose textual content is the post or page title-->
             <a href="<?php the_permalink('http://amelia.hackinghistory.ca/home/'); ?>">
-                <?php the_title('What’s the “K” in the KCC?'); ?>
+                <?php the_title(); ?>
               <h3>What’s the “K” in the KCC?</h3>
             </a>
         </h2>
