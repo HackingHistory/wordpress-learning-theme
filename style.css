@@ -16,7 +16,7 @@ body {
         -o-background-size: cover;
         background-size: cover;
     text-align: center;
-    color: white;
+    color: #2F4F4F;
     background: height: 200px;
     background-repeat: no-repeat;
     font-family: Helvetica;
@@ -28,8 +28,8 @@ body {
     /* border: 1px #a2a2a2 solid; */
     width:84%;
     margin:0px auto;
-    background: navy;
-    opacity: 0.8;
+    background: ivory;
+    opacity: 0.7;
 }
 
 #header {
