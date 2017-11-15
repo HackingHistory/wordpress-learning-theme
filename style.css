@@ -10,7 +10,7 @@ Author URI: http://hackinghistory.ca
 
 
 body {
-    text-align: center;
+    text-align: left;
     background: LightSteelBlue;
     color: #333;
 }
@@ -20,12 +20,10 @@ figcaption {
   text-decoration: none;
   letter-spacing: -1px;
   font-style: italic;
-  text-align: center;
+  text-align: left;
 }
 
-figure {
-  align-items: center
-}
+
 
 h3 {
   color: white;
