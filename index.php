@@ -14,7 +14,7 @@
         </h2>
         <!-- use php's strange time parsing functions to write out the time -->
         <h4>
-            Posted on Nov 14, 2017<?php the_time('F jS, Y') ?>
+            Posted on <?php the_time('F jS, Y') ?>
 
         </h4>
         <!-- add the content -->

@@ -27,6 +27,7 @@
            -->
 
         <link rel="stylesheet" href="https://amelia.hackinghistory.ca/wp-content/themes/wordpress-learning-theme/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;amp;subset=cyrillic" rel="stylesheet">
     </head>
     <body >
         <!-- This div lets us set boundaries for the whole page. In a real theme we would
@@ -35,7 +36,9 @@
         <div id="page">
             <!-- here we use an id; again, we do this so we can address it with css in style.css -->
             <header id="header">
-                <h1 id="site-title">KCC</h1>
+                <h1 id="site-title">
+                <a href="https://amelia.hackinghistory.ca">
+                KCC</h1>  </a>
                 <h2 id="site-description">
                     Khangchendzonga Conservation Committee    <?php bloginfo('KNP and KCC'); ?>
                 </h2>
@@ -43,7 +46,7 @@
                 <nav id="main-menu">
                     <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
                 <div class'"menu>"
-
+                
             </header>
 
             <!-- here's something you won't see in a regular html file:
