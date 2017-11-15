@@ -26,7 +26,7 @@
              don't even have that file at all!
            -->
 
-        <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
+        <link rel="stylesheet" href="https://amelia.hackinghistory.ca/wp-content/themes/wordpress-learning-theme/style.css">
     </head>
     <body >
         <!-- This div lets us set boundaries for the whole page. In a real theme we would
@@ -37,8 +37,7 @@
             <header id="header">
                 <h1 id="site-title">KCC</h1>
                 <h2 id="site-description">
-                    Khangchendzonga Conservation Committee
-                    <?php bloginfo('KNP and KCC'); ?>
+                    Khangchendzonga Conservation Committee    <?php bloginfo('KNP and KCC'); ?>
                 </h2>
                 <!-- in Wordpress menus are almost always embedded in a <nav> element -->
                 <nav id="main-menu">

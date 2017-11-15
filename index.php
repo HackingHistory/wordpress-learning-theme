@@ -14,12 +14,8 @@
         </h2>
         <!-- use php's strange time parsing functions to write out the time -->
         <h4>
-            Posted on <?php the_date('F jS, Y') ?>
+            Posted on Nov 14, 2017<?php the_time('F jS, Y') ?>
 
-            <?php
-$date=date_create("2013-03-15");
-echo date_format($date,"Y/m/d");
-?>
         </h4>
         <!-- add the content -->
 
