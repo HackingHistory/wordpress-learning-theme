@@ -9,11 +9,11 @@
 
             <a href="<?php the_permalink('http://amelia.hackinghistory.ca/home/'); ?>">
             </a>
-            <?php the_title('The Park and the Mountain'); ?>
+            <?php the_title(<h5>'The Park and the Mountain'</h5>); ?>
         </h2>
 
         <h4>
-            Posted on <?php the_time('F jS, Y') ?>
+          Posted on <?php the_date('2017-11-14')?>
         </h4>
         <!-- add the content -->
 
