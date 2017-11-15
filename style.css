@@ -29,6 +29,7 @@ body {
     width:84%;
     margin:0px auto;
     background: ivory;
+    opacity: 0.5;
 }
 
 #header {
