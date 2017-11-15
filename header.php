@@ -35,6 +35,8 @@
             <!-- here we use an id; again, we do this so we can address it with css in style.css -->
             <header id="header">
                 <h1 id="site-title">
+                  
+                              <?php bloginfo('name'); ?>
 
 
                 </h1>
