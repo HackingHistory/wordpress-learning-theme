@@ -4,19 +4,16 @@
 
 
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <h2>
+        <h5>
             <!-- create a link whose href is the permanent link to this post,
                and whose textual content is the post or page title-->
             <a href="<?php the_permalink('http://amelia.hackinghistory.ca/home/'); ?>">
                 <?php the_title(); ?>
-              <h3>What’s the “K” in the KCC?</h3>
+              Posted on <?php the_time('Y-m-d') ?>
             </a>
-        </h2>
+        </h5>
         <!-- use php's strange time parsing functions to write out the time -->
-        <h4>
-            Posted on <?php the_time('Y-m-d') ?>
-
-        </h4>
+        
         <!-- add the content -->
 
         <p><?php the_content(__('(more...)')); ?></p>
