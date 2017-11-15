@@ -23,6 +23,10 @@ figcaption {
   text-align: center;
 }
 
+figure {
+  align-items: center
+}
+
 h3 {
   color: white;
   text-transform: uppercase;
