@@ -50,16 +50,10 @@ body {
 
 .title {
     font-size: 11pt;
-    font-family: verdana;
+    font-family: #0000A0;
     font-weight: bold;
     align: left;
-}
 
-.pants {
-  color: green;
-  text-decoration: underline;
-  font-weight: bold;
-}
 /*menu*/
 #main-menu {
 	background: #222; /* Show a solid color for older browsers */
