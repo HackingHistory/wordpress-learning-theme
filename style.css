@@ -23,6 +23,7 @@ body {
 
 #header {
     border: 2px #a2a2a2 solid;
+  
 }
 
 #content {
@@ -49,10 +50,10 @@ body {
 }
 
 .title {
-    font-size: 11pt;
-    font-family: verdana;
+    font-size: 14pt;
+    font-family: Georgia;
     font-weight: bold;
-    align: left;
+    align: right;
 
   }
 
@@ -148,21 +149,4 @@ body {
 #main-menu .current_page_item > a,
 #main-menu .current_page_ancestor > a {
 	font-weight: bold;
-}
-
-img {
-	display: block;
-	height: 100px;
-	width: 300px;
-	margin: auto;
-}
-
-div {
-	border-radius: 5px;
-	border: 2px solid #6495ED;
-	background-color: #BCD2EE;
-	height: 50px;
-	width: 120px;
-	margin: auto;
-	text-align: center;
 }
