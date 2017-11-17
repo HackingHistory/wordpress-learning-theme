@@ -34,7 +34,7 @@ body {
 
 #sidebar-primary {
     width: 23%;
-    border: 2px blue solid;
+    border: 0px blue solid;
     float: right;
     text-align: left;
 }
