@@ -5,7 +5,7 @@
 
   <!-- this id lets us address the content area i nstyle.css -->
   <div id="content">
-      <h1>Welcome!</h1>
+      <h2>Welcome!</h2>
       <!-- this is called "the loop"; it's a little complicated.
            there are many tutorials but you can read more about it here:
            https://codex.wordpress.org/The_Loop_in_Action
