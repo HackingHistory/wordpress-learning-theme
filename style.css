@@ -13,6 +13,18 @@ body {
     background: darkslateblue;
     font-family: lucida;
 }
+h1 {
+  font-family: tahoma;
+  font-size: 18pt;
+  color: darkviolet;
+
+}
+
+h3 {
+  font-family: tahoma;
+  font-size: 16pt;
+  color: darkviolet;
+}
 
 #page {
     display: block;
