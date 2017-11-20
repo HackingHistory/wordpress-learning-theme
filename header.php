@@ -34,11 +34,7 @@
         <div id="page">
             <!-- here we use an id; again, we do this so we can address it with css in style.css -->
             <header id="header">
-                <h1 id="site-title">
-                    <a href="<?php bloginfo('url'); ?>">
-                        <?php bloginfo('name'); ?>
-                    </a>
-                </h1>
+                <h1 id="site-title"</h1>
                 <h2 id="site-description">
                     <?php bloginfo('description'); ?>
                 </h2>
