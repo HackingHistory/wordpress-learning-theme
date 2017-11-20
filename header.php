@@ -36,6 +36,7 @@
             <header id="header">
                 <h1 id="site-title"</h1>
                   <h1> KHANCHENDZONGA NATIONAL PARK <h2>
+                    <img src= "http://whc.unesco.org/uploads/thumbs/site_1513_0010-500-375-20161019150859.jpg" width="300" height="100" title="Mountains" alt ="Mountains"/>
                 <h2 id="site-description">
                     <?php bloginfo('description'); ?>
                 </h2>
