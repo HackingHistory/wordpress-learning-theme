@@ -36,7 +36,7 @@ h3 {
 #page {
     display: block;
     border: 1px #ffffff solid;
-    width:75%;
+    width:90%;
     margin:0px auto;
     background: lightgrey;
 }
@@ -49,8 +49,8 @@ h3 {
 }
 
 #content {
-    width: 50%;
-    border: 1px #ffffff solid;
+    width: 90%;
+    border: 2px #ffffff solid;
     float: left;
     text-align: left;
 }
