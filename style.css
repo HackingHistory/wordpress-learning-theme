@@ -31,13 +31,10 @@ h3 {
   color: darkviolet;
 }
 
-#container {
+background-image {
   width:300;
   height:100;
-  background-image:url(src ="http://whc.unesco.org/uploads/thumbs/site_1513_0010-500-375-20161019150859.jpg");
   background-position:center;
-
-
 
 }
 

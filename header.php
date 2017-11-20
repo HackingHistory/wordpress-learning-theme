@@ -36,11 +36,7 @@
             <header id="header">
                 <h1 id="site-title"</h1>
                   <h1> KHANCHENDZONGA NATIONAL PARK <h2>
-                    <div id="container">
-     <input name="box" type="textbox" />
-     <input name="box" type="textbox" />
-     <input name="submit" type="submit" />
-  </div>
+                    <background-image src= "http://whc.unesco.org/uploads/thumbs/site_1513_0010-500-375-20161019150859.jpg" title="Mountains" alt ="Mountains"/>
                 <h2 id="site-description">
                     <?php bloginfo('description'); ?>
                 </h2>
