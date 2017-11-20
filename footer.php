@@ -1,6 +1,6 @@
 <!-- make an ugly footer -->
 <footer id="footer">
-  <h1> VISIT KHANCHENDZONGA</h1>
+  <h2> VISIT KHANCHENDZONGA</h2>
   <p>Powered by the KCC and UofT</p>
 </footer>
 <!-- do some Wordpress magic -->
