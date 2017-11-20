@@ -36,7 +36,7 @@ h3 {
 #page {
     display: block;
     border: 1px #ffffff solid;
-    width:90%;
+    width:75%;
     margin:0px auto;
     background: lightgrey;
 }
@@ -44,11 +44,13 @@ h3 {
 #header {
     border: 2px #ffffff solid;
     background-image: url(http://whc.unesco.org/uploads/thumbs/site_1513_0010-500-375-20161019150859.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #content {
-    width: 75%;
-    border: 2px #ffffff solid;
+    width: 50%;
+    border: 1px #ffffff solid;
     float: left;
     text-align: left;
 }
