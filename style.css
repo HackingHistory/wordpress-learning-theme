@@ -36,20 +36,18 @@ h3 {
 #page {
     display: block;
     border: 1px #ffffff solid;
-    width:90%;
+    width:85%;
     margin:0px auto;
-    background: lightgrey;
+    background: paleturquoise;
 }
 
 #header {
     border: 2px #ffffff solid;
     background-image: url(http://whc.unesco.org/uploads/thumbs/site_1513_0010-500-375-20161019150859.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 #content {
-    width: 90%;
+    width: 70%;
     border: 2px #ffffff solid;
     float: left;
     text-align: left;
@@ -81,7 +79,7 @@ h3 {
 
 /*menu*/
 #main-menu {
-	background: darkslateblue; /* Show a solid color for older browsers */
+	background: mediumturquoise; /* Show a solid color for older browsers */
 	background: -moz-linear-gradient(#252525, #0a0a0a);
 	background: -o-linear-gradient(#252525, #0a0a0a);
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a)); /* older webkit syntax */
@@ -133,7 +131,7 @@ h3 {
 #main-menu ul ul a {
 	background: #483D8B;
 	border-bottom: 1px dotted #ddd;
-	color: #ffffff;
+	color: mediumturquoise;
 	font-size: 13px;
 	font-weight: normal;
 	height: auto;
