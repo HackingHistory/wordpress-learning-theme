@@ -38,12 +38,12 @@ h3 {
     border: 1px #ffffff solid;
     width:90%;
     margin:0px auto;
-    background-image: url(http://whc.unesco.org/uploads/thumbs/site_1513_0010-500-375-20161019150859.jpg);
     background: lightgrey;
 }
 
 #header {
     border: 2px #ffffff solid;
+    background-image: url(http://whc.unesco.org/uploads/thumbs/site_1513_0010-500-375-20161019150859.jpg);
 }
 
 #content {
