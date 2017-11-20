@@ -32,9 +32,9 @@ h3 {
 }
 
 img {
-  width:900;
-  height:300;
-  position: absolute;
+  width:300;
+  height:100;
+  position: relative;
 
 
 }
