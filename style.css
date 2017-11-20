@@ -11,12 +11,12 @@ Author URI: http://hackinghistory.ca
 body {
     text-align: center;
     background: darkslateblue;
-    font-family: lucida;
+    font-family: tahoma;
 }
 h1 {
   font-family: tahoma;
   font-size: 22pt;
-  color: white;
+  color: palevioletred;
 
 
 }
@@ -29,7 +29,7 @@ h2 {
 h3 {
   font-family: tahoma;
   font-size: 16pt;
-  color: darkviolet;
+  color: darkturquoise;
 }
 
 
@@ -129,7 +129,7 @@ h3 {
 	top: 0;
 }
 #main-menu ul ul a {
-	background: #483D8B;
+	background: ##48D1CC;
 	border-bottom: 1px dotted #ddd;
 	color: mediumturquoise;
 	font-size: 13px;
@@ -142,7 +142,7 @@ h3 {
 #main-menu li:hover > a,
 #main-menu ul ul :hover > a,
 #main-menu a:focus {
-	background: #483D8B;
+	background: ##48D1CC;
 }
 #main-menu li:hover > a,
 #main-menu a:focus {
