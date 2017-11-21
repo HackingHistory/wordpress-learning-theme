@@ -11,7 +11,6 @@ Author URI: http://hackinghistory.ca
 body {
     text-align: center;
     background: #e0b191;
-    border: 2px #a2a2a2 solid;
 }
 
 #page {
@@ -19,17 +18,14 @@ body {
     width:100%;
     margin:0px auto;
     background: #f9f6f4;
-    border: 2px #a2a2a2 solid;
 }
 
 #header {
-  border: 2px #a2a2a2 solid;
   width: 80%;
 }
 
 #content {
     width: 80%;
-    border: 2px #a2a2a2 solid;
     float: left;
     text-align: left;
 }
@@ -47,7 +43,6 @@ body {
 }
 
 #footer {
-  border: 2px #a2a2a2 solid;
 }
 
 .title {
