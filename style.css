@@ -44,6 +44,8 @@ h3 {
 #header {
     border: 2px #ffffff solid;
     background-image: url(http://whc.unesco.org/uploads/thumbs/site_1513_0010-500-375-20161019150859.jpg);
+    background-size: cover;
+    
 }
 
 #content {
