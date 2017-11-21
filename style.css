@@ -42,6 +42,8 @@ body {
     width: 20%;
     float: right;
     text-align: left;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
 }
 
 
