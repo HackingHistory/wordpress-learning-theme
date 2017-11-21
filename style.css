@@ -15,26 +15,22 @@ body {
 
 #page {
     display: block;
-    border: 0px #ffaa75 solid;
     width:90%;
     margin:0px auto;
     background: #8fa5c8;
 }
 
 #header {
-    border: 0px #ffaa75 solid;
 }
 
 #content {
     width: 80%;
-    border: 0px #ffaa75 solid;
     float: left;
     text-align: left;
 }
 
 #sidebar-primary {
     width: 23%;
-    border: 0px #ffaa75 solid;
     float: right;
     text-align: left;
 }
@@ -45,7 +41,6 @@ body {
 }
 
 #footer {
-    border: 0px #ffaa75 solid;
 }
 
 .title {
