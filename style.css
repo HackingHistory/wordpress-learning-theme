@@ -10,17 +10,18 @@ Author URI: http://hackinghistory.ca
 
 body {
     text-align: center;
-    background: 	#3f4690;
+    background: 	#e0b191;
 }
 
 #page {
     display: block;
-    width:90%;
+    width:100%;
     margin:0px auto;
-    background: #8fa5c8;
+    background: #f9f6f4;
 }
 
 #header {
+  width: 80%;
 }
 
 #content {
