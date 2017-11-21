@@ -16,6 +16,14 @@
 						<p>
 							We have several shops across Japan. More information could be found <a href = https://www.karelcapek.co.jp/user_data/shop#kichi>here</a>.
 						</p>
+						<!-- Add icon library -->
+						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+						<!-- Add font awesome icons -->
+						<a href="https://www.facebook.com/karelcapek.teatime/" class="fa fa-facebook"></a>
+						<a href="https://twitter.com/karelabuzzy" class="fa fa-twitter"></a>
+						<a href="https://www.instagram.com/karelcapek_official/" class="fa fa-instagram" >
+
         </div>
 
 	<?php endif; ?>
