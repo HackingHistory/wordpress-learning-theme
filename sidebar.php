@@ -17,6 +17,8 @@
 							We have several shops across Japan. More information could be found <a href = https://www.karelcapek.co.jp/user_data/shop#kichi>here</a>.
 						</p>
 
+						<h4 class = "sidebartitle"> Follow us!</h4>
+
 						<!-- Add icon library -->
 						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
