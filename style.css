@@ -10,14 +10,22 @@ Author URI: http://hackinghistory.ca
 
 body {
     text-align: center;
-    background: #e0b191;
+    background-image: url("https://3.bp.blogspot.com/-jC1AxaPGV3k/WN-VgdnISeI/AAAAAAAAKLs/v4Ux5BqT6cQmIBfbl5b9y7mPxa74A-v-wCLcB/s640/17linefriendsimage2.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    background-color: #cccccc;
 }
 
 #page {
     display: block;
-    width:100%;
+    width:80%;
     margin:0px auto;
-    background: #f9f6f4;
+    background: #f7aa67;
+    position:relative;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
 }
 
 #header {
@@ -25,13 +33,13 @@ body {
 }
 
 #content {
-    width: 80%;
+    width: 70%;
     float: left;
     text-align: left;
 }
 
 #sidebar-primary {
-    width: 15%;
+    width: 20%;
     float: right;
     text-align: left;
 }
