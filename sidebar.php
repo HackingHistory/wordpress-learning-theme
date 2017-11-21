@@ -9,7 +9,11 @@
     <?php else : ?>
 
 	<div id="sidebar">
-            <h2 class="sidebartitle">FAQ</h2>          
+            <h2 class="sidebartitle">FAQ</h2>
+            <p> <a href="https://monica.hackinghistory.ca/about/kcc-mandate/"> Q. What is the KCC? </a></p>
+            <p> <a href="https://monica.hackinghistory.ca/maps/"> Q. Where is Khangchendzonga? </a></p>
+            <p> <a href="https://monica.hackinghistory.ca/ecotourism/"> Q. Can I visit the Mountain? </a> </p>
+
         </div>
 
     <?php endif; ?>
