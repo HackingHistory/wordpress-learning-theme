@@ -12,12 +12,12 @@
 						<a href = https://en.wikipedia.org/wiki/Karel_%C4%8Capek>Karel Čapek</a> in Roman letter is also the name for a Czech writer of the early 20th century.
 					</p>
 
-					<h3 class = "sidebartitle">店舗のご紹介</h3>
+					<h2 class = "sidebartitle">店舗のご紹介</h2>
 						<p>
 							We have several shops across Japan. More information could be found <a href = https://www.karelcapek.co.jp/user_data/shop#kichi>here</a>.
 						</p>
 
-						<h4 class = "sidebartitle"> Follow us!</h4>
+						<h2 class = "sidebartitle"> Follow us!</h2>
 
 						<!-- Add icon library -->
 						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
